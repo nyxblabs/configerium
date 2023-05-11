@@ -29,20 +29,21 @@
   },
   "dependencies": {
     "chokidar": "^3.5.3",
-    "nyxdefaults": "^0.0.2",
+    "configorium": "^0.0.3",
     "dotenv": "^16.0.3",
-    "gitize": "^0.0.2",
     "dynot": "^0.1.6",
     "esmnxuts": "^0.0.4",
+    "gitize": "^0.0.2",
+    "nyxdefaults": "^0.0.2",
+    "nyxdefer": "^0.0.3",
     "nyxhash": "^0.0.4",
     "nyxpath": "^0.0.3",
-    "nyxdefer": "^0.0.3",
-    "pkg-def": "^0.0.1",
-    "configorium": "^0.0.3"
+    "pkg-def": "^0.0.1"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^0.0.53",
     "@vitest/coverage-c8": "^0.30.1",
+    "consolji": "^0.1.1",
     "eslint": "^8.39.0",
     "expect-type": "^0.15.0",
     "typescript": "^5.0.4",

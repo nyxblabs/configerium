@@ -3,6 +3,7 @@
     "@nyxb"
   ],
   "rules": {
+    "unused-imports/no-unused-vars": 0,
     "unicorn/prevent-abbreviations": 0,
     "@typescript-eslint/no-non-null-assertion": 0
   }
