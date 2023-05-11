@@ -25,7 +25,14 @@
     }
   },
   "scripts": {
-    "test": "echo \"Happy hacking\" && 💙"
+    "prepack": "unbuild",
+    "build": "unbuild",
+    "dev": "vitest dev",
+    "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
+    "lint:fix": "eslint --ext .ts,.js,.mjs,.cjs .",
+    "release": "nyxr test && nyxlx changelogen@latest --release && pnpm publish && git push --follow-tags",
+    "test": "vitest run --coverage && pnpm test:types",
+    "test:types": "tsc --noEmit"
   },
   "dependencies": {
     "chokidar": "^3.5.3",
@@ -42,6 +49,7 @@
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^0.0.53",
+    "@nyxb/nyxi": "^0.0.28",
     "@vitest/coverage-c8": "^0.30.1",
     "consolji": "^0.1.1",
     "eslint": "^8.39.0",

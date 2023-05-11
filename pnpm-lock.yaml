@@ -39,6 +39,9 @@ devDependencies:
   '@nyxb/eslint-config':
     specifier: ^0.0.53
     version: 0.0.53(eslint@8.39.0)(typescript@5.0.4)
+  '@nyxb/nyxi':
+    specifier: ^0.0.28
+    version: 0.0.28
   '@vitest/coverage-c8':
     specifier: ^0.30.1
     version: 0.30.1(vitest@0.30.1)
@@ -719,6 +722,14 @@ packages:
       - jest
       - supports-color
       - typescript
+    dev: true
+
+  /@nyxb/nyxi@0.0.28:
+    resolution: {integrity: sha512-2EjAvM2wdHl9JHqdOXPDqzhpogJJPSXtH0AxnE5xib9IztmkPNKK0Cl29hruy5Ialpb7PE4X7tRe2yP8mFPXXA==}
+    engines: {node: '>=18.15.0'}
+    hasBin: true
+    dependencies:
+      consolji: 0.1.1
     dev: true
 
   /@nyxb/picocolors@1.0.1:
