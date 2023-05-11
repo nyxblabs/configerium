@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@nyxb"
+  ],
+  "rules": {
+    "unicorn/prevent-abbreviations": 0,
+    "@typescript-eslint/no-non-null-assertion": 0
+  }
+}
