@@ -11,29 +11,29 @@ dependencies:
     specifier: ^16.0.3
     version: 16.0.3
   dynot:
-    specifier: ^0.1.6
-    version: 0.1.6
+    specifier: ^0.1.8
+    version: 0.1.8
   esmnxuts:
-    specifier: ^0.0.4
-    version: 0.0.4
+    specifier: ^0.0.10
+    version: 0.0.10
   gitize:
     specifier: ^0.0.2
     version: 0.0.2
   nyxdefaults:
-    specifier: ^0.0.2
-    version: 0.0.2
-  nyxdefer:
     specifier: ^0.0.3
     version: 0.0.3
-  nyxhash:
+  nyxdefer:
     specifier: ^0.0.4
     version: 0.0.4
+  nyxhash:
+    specifier: ^0.0.5
+    version: 0.0.5
   nyxpath:
     specifier: ^0.0.3
     version: 0.0.3
   pkg-def:
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: ^0.0.7
+    version: 0.0.7
 
 devDependencies:
   '@nyxb/eslint-config':
@@ -1675,8 +1675,8 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /dynot@0.1.6:
-    resolution: {integrity: sha512-Xx9VCMpTF3BQHBOpVgeuViMMUazrnVbo8JszUhE/QULzwBEUgqLJ2piribWWatZppQbuolWt+y3Wep/tW/g/hw==}
+  /dynot@0.1.8:
+    resolution: {integrity: sha512-Wc30Q4wcf8h+oHpRmTve2VhghBfDwLVpe3wDAByjhJswmKnwb19JE2+FFYBvFtQAO2PnaUsDHxKsMD4lwStYSg==}
     hasBin: true
     dependencies:
       requireflow: 0.0.2
@@ -2305,22 +2305,22 @@ packages:
       - supports-color
     dev: true
 
-  /esmnxuts@0.0.2:
-    resolution: {integrity: sha512-IREVHPuuIss1qCfWKjT8nDiMxBlwQ0H2f+dB6A3KihcMUB2nPHzludUuyCQMYPtMkDlYfId3hvSjG5jS5fROZA==}
+  /esmnxuts@0.0.10:
+    resolution: {integrity: sha512-3ltv3K8pY09PU7B0gOuohdFuUHLfi+Jxv96Z7aNNxGtwvFhfn/BQgJLDzNbYCIzPAhz/FVHM1E/cu8YW8df5ZQ==}
     dependencies:
       acorn: 8.8.2
-      nyxpath: 0.0.3
-      pkg-def: 0.0.1
-      url-ops: 0.0.3
+      nyxpath: 0.0.4
+      pkg-def: 0.0.4
+      url-ops: 0.0.4
     dev: false
 
-  /esmnxuts@0.0.4:
-    resolution: {integrity: sha512-F+UMy1xamKWapULmMqkF0lSixLwsHk9X/QLnwot1Ogfx3Ar02EwIWPXHEPUtxEHY48rgdYi6LKlVIwbNp7XO5A==}
+  /esmnxuts@0.0.7:
+    resolution: {integrity: sha512-Ycdn2CgccbufvBcB2ONOAZNtZ3KxOpQ1GXaCFNbG9eMnTamckSk2emL5BA1Qp6zb22gIZXJCpt7tGzFJSc6dLQ==}
     dependencies:
       acorn: 8.8.2
-      nyxpath: 0.0.3
-      pkg-def: 0.0.1
-      url-ops: 0.0.3
+      nyxpath: 0.0.4
+      pkg-def: 0.0.4
+      url-ops: 0.0.4
     dev: false
 
   /espree@9.5.2:
@@ -3417,7 +3417,6 @@ packages:
       pathe: 1.1.0
       pkg-types: 1.0.3
       ufo: 1.1.2
-    dev: true
 
   /mri@1.2.0:
     resolution: {integrity: sha512-tzzskb3bG8LvYGFF/mDTpq3jpI6Q9wc3LEmBaghu+DdCssd1FakN7Bc0hVNmEyGq1bq3RgfkCb3cmQLpNPOroA==}
@@ -3490,12 +3489,12 @@ packages:
     resolution: {integrity: sha512-Se7Ci3PwRdo6ZHYoQecZZbM5Hxl+WNYEHX/zgbA8Hvd1Av27tlzgqYZdytAnRPMOdU7/UOgsngzXUeYitoVkRQ==}
     dev: false
 
-  /nyxdefer@0.0.3:
-    resolution: {integrity: sha512-t18PTbfU0XI/s/zwPVD+d5jhmbKXJ1HhrqCRjDTOwVY2y6+m7JaeLUXaoBm9+DdhCZXhRW0Op2ee0BHQuoZpuQ==}
+  /nyxdefer@0.0.4:
+    resolution: {integrity: sha512-XgJImRWfB3B3OhRjso5pfP2UPIcjrqCqqZEqxdviNrLy49ziiL8kXJGqzrlh2pu8UpnWu0N3q7nXlipGiXtpAA==}
     dev: false
 
-  /nyxhash@0.0.4:
-    resolution: {integrity: sha512-RiwoB56EhKFt0LuiOa4hO+Gk8tc++PaFhklllHUkVZq2qrwWDaIFH0zRn/JdS85KFohsKkE3EkB36bna6wN/TQ==}
+  /nyxhash@0.0.5:
+    resolution: {integrity: sha512-FyoxVbmWNCyw/8QAOcv0HmOmviOdSxc4Bkc5kTToJHfinqBdUz/sYvdj8Q4HfgEsmJRJKf51XLBnjBAQ+KArsA==}
     dev: false
 
   /nyxjson@0.0.3:
@@ -3504,6 +3503,10 @@ packages:
 
   /nyxpath@0.0.3:
     resolution: {integrity: sha512-qNtHt76H5iGwO3Oa9aoYgzLlUxM1JBsT75TpRFAB2D8d+P2Xnf0ZJdrU/SjwGKngQdhPJ6unIsNkt2XfTkUlAg==}
+    dev: false
+
+  /nyxpath@0.0.4:
+    resolution: {integrity: sha512-fcNN7jErA+fkM6IeR1LsX/GRuUmfBRP25HwL5i9IJ9muGsLL2H+Hkx7tWt61soo+EhAXrHiQqePvf4gLjpAMTg==}
     dev: false
 
   /object-assign@4.1.1:
@@ -3713,7 +3716,6 @@ packages:
 
   /pathe@1.1.0:
     resolution: {integrity: sha512-ODbEPR0KKHqECXW1GoxdDb+AZvULmXjVPy4rt+pGo2+TnjJTIPJQSVS6N63n8T2Ip+syHhbn52OewKicV0373w==}
-    dev: true
 
   /pathval@1.1.1:
     resolution: {integrity: sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==}
@@ -3727,10 +3729,18 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  /pkg-def@0.0.1:
-    resolution: {integrity: sha512-5JNzSQmCZia/V61B3KS3JE05jTM8yXfUbpt69J5PHTlKP8dtSygdiIzsFrYryAGPhkm4E/+0cOPQCVeqg6deDg==}
+  /pkg-def@0.0.4:
+    resolution: {integrity: sha512-F6Y0m0mCLRV7u39CsI5yyTQ4UI0WKMgG9iwglIdE5cQ313em957l0Xixt2Rjqu8ecXVVzw8UsxR8OBR0COwqaw==}
     dependencies:
-      esmnxuts: 0.0.2
+      jsonc-parser: 3.2.0
+      mlly: 1.2.0
+      nyxpath: 0.0.3
+    dev: false
+
+  /pkg-def@0.0.7:
+    resolution: {integrity: sha512-/mhDxSDVwvIEDfPnXPGHkXxb9822+KT+qXEYFIzdiaWuCxEla0Gu27ewctHHfy7qMZI4y6lq1PE/4ImLtLt0bg==}
+    dependencies:
+      esmnxuts: 0.0.7
       jsonc-parser: 3.2.0
       nyxpath: 0.0.3
     dev: false
@@ -3741,7 +3751,6 @@ packages:
       jsonc-parser: 3.2.0
       mlly: 1.2.0
       pathe: 1.1.0
-    dev: true
 
   /pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
@@ -4314,7 +4323,6 @@ packages:
 
   /ufo@1.1.2:
     resolution: {integrity: sha512-TrY6DsjTQQgyS3E3dBaOXf0TpPD8u9FVrVYmKVegJuFw51n/YB9XPt+U6ydzFG5ZIN7+DIjPbNmXoBj9esYhgQ==}
-    dev: true
 
   /unbox-primitive@1.0.2:
     resolution: {integrity: sha512-61pPlCD9h51VoreyJ0BReideM3MDKMKnh6+V9L08331ipq6Q8OFXZYiqP6n/tbHx4s5I9uRhcye6BrbkizkBDw==}
@@ -4407,8 +4415,8 @@ packages:
       punycode: 2.3.0
     dev: true
 
-  /url-ops@0.0.3:
-    resolution: {integrity: sha512-smnbigljzxnlQ2ZSaHdHBQofbm64YdFkmEi+fhbTBaheVrlw4Z5ZeRf6dgPpSM+M+EIWj8cotMLSy/FS6DCVmA==}
+  /url-ops@0.0.4:
+    resolution: {integrity: sha512-2RiQDPvvxY11r/ZFtbabuVZB7O4128iJT3I4jNiPe+ycWkPouZjTSrE/fong0sPQt85wkvoRL9J/saIUw8h4dg==}
     dev: false
 
   /util-deprecate@1.0.2:

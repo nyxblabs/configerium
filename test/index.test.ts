@@ -113,7 +113,7 @@ describe('configerium', () => {
             "theme": "./theme",
           },
           "configFile": "config",
-          "cwd": "<path>/fixture",
+          "cwd": "C:/Users/Denni/Projects/Repo Backups/configerium/test/fixture",
         },
         {
           "config": {
@@ -136,8 +136,8 @@ describe('configerium', () => {
               "secondary": "theme_secondary",
             },
           },
-          "configFile": "<path>/fixture/theme/config.ts",
-          "cwd": "<path>/fixture/theme",
+          "configFile": "C:\\\\Users\\\\Denni\\\\Projects\\\\Repo Backups\\\\configerium\\\\test\\\\fixture\\\\theme\\\\config.ts",
+          "cwd": "C:/Users/Denni/Projects/Repo Backups/configerium/test/fixture/theme",
           "meta": {},
           "source": "config",
           "sourceOptions": {},
@@ -159,8 +159,8 @@ describe('configerium', () => {
               "text": "base_text",
             },
           },
-          "configFile": "<path>/fixture/base/config.ts",
-          "cwd": "<path>/fixture/base",
+          "configFile": "C:\\\\Users\\\\Denni\\\\Projects\\\\Repo Backups\\\\configerium\\\\test\\\\fixture\\\\base\\\\config.ts",
+          "cwd": "C:/Users/Denni/Projects/Repo Backups/configerium/test/fixture/base",
           "meta": {
             "name": "base",
             "version": "1.0.0",
@@ -172,8 +172,8 @@ describe('configerium', () => {
           "config": {
             "devConfig": true,
           },
-          "configFile": "<path>/fixture/config.dev.ts",
-          "cwd": "<path>/fixture",
+          "configFile": "C:\\\\Users\\\\Denni\\\\Projects\\\\Repo Backups\\\\configerium\\\\test\\\\fixture\\\\config.dev.ts",
+          "cwd": "C:/Users/Denni/Projects/Repo Backups/configerium/test/fixture",
           "meta": {},
           "source": "./config.dev",
           "sourceOptions": {},
@@ -182,10 +182,10 @@ describe('configerium', () => {
           "config": {
             "npmConfig": true,
           },
-          "configFile": "<path>/fixture/node_modules/configerium-npm-test/config.ts",
-          "cwd": "<path>/fixture/node_modules/configerium-npm-test",
+          "configFile": "C:/Users/Denni/Projects/Repo Backups/configerium/test/fixture/node_modules/configerium-npm-test/config.ts",
+          "cwd": "C:/Users/Denni/Projects/Repo Backups/configerium/test/fixture/node_modules/configerium-npm-test",
           "meta": {},
-          "source": "<path>/fixture/node_modules/configerium-npm-test/config.ts",
+          "source": "C:\\\\Users\\\\Denni\\\\Projects\\\\Repo Backups\\\\configerium\\\\test\\\\fixture\\\\node_modules\\\\configerium-npm-test\\\\config.ts",
           "sourceOptions": {
             "userMeta": 123,
           },

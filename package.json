@@ -38,14 +38,14 @@
     "chokidar": "^3.5.3",
     "configorium": "^0.0.3",
     "dotenv": "^16.0.3",
-    "dynot": "^0.1.6",
-    "esmnxuts": "^0.0.4",
+    "dynot": "^0.1.8",
+    "esmnxuts": "^0.0.10",
     "gitize": "^0.0.2",
-    "nyxdefaults": "^0.0.2",
-    "nyxdefer": "^0.0.3",
-    "nyxhash": "^0.0.4",
+    "nyxdefaults": "^0.0.3",
+    "nyxdefer": "^0.0.4",
+    "nyxhash": "^0.0.5",
     "nyxpath": "^0.0.3",
-    "pkg-def": "^0.0.1"
+    "pkg-def": "^0.0.7"
   },
   "devDependencies": {
     "@nyxb/eslint-config": "^0.0.53",
