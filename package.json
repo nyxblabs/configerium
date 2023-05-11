@@ -1,0 +1,57 @@
+{
+  "name": "configerium",
+  "version": "0.0.1",
+  "description": "⚙️ configerium is a powerful Smart Configuration Loader designed to simplify the management of your project's configuration.",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "hompage": "https://💻nyxb.ws",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyxblabs/configerium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxblabs/configerium/issues"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Happy hacking\" && 💙"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "nyxdefaults": "^0.0.2",
+    "dotenv": "^16.0.3",
+    "gitize": "^0.0.2",
+    "dynot": "^0.1.6",
+    "esmnxuts": "^0.0.4",
+    "nyxhash": "^0.0.4",
+    "nyxpath": "^0.0.3",
+    "nyxdefer": "^0.0.3",
+    "pkg-def": "^0.0.1",
+    "configorium": "^0.0.3"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "^0.0.53",
+    "@vitest/coverage-c8": "^0.30.1",
+    "eslint": "^8.39.0",
+    "expect-type": "^0.15.0",
+    "typescript": "^5.0.4",
+    "unbuild": "^1.2.1",
+    "vitest": "^0.30.1"
+  },
+  "packageManager": "pnpm@8.5.0",
+  "files": [
+    "dist"
+  ],
+  "keywords": []
+}
