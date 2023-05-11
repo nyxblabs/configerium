@@ -1,6 +1,6 @@
 {
   "name": "configerium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "⚙️ configerium is a powerful Smart Configuration Loader designed to simplify the management of your project's configuration.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
